@@ -7,11 +7,11 @@ require "diffdetect/version"
 Gem::Specification.new do |s|
   s.name        = "diffdetect"
   s.version     = Diffdetect::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Diffdetect."
-  s.description = "TODO: Description of Diffdetect."
+  s.authors     = ["Dave Makena"]
+  s.email       = ["dave@abcbots.com"]
+  s.homepage    = "http://www.abcbots.com/o/2706_html_radar"
+  s.summary     = "Returns web page changes."
+  s.description = "Takes a URL, scrapes it, remembers it, and returns latest changes."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
